@@ -47,7 +47,7 @@ public class StatsService {
     public int mothNellAverage(int[] sales) {
         int counter = 0;
         for (int sale : sales) {
-            if (sale <= average(sales)) {
+            if (sale >= average(sales)) {
                 counter++;
             }
         }
