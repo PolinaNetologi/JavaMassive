@@ -54,6 +54,7 @@ class StatsServiceTest {
         int expectedSum = 5;
         Assertions.assertEquals(expectedSum, actual);
     }
+
     @Test
     public void testMothNellAverage() {
         StatsService service = new StatsService();
@@ -64,4 +65,5 @@ class StatsServiceTest {
         Assertions.assertEquals(expectedSum, actual);
     }
 }
+
 
